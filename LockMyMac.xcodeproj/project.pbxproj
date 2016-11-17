@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D1A9DD41DDAA6A2007E9495 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A9DD31DDAA6A2007E9495 /* AppDelegate.m */; };
+		7D1A9DD71DDAA6A2007E9495 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A9DD61DDAA6A2007E9495 /* main.m */; };
+		7D1A9DDC1DDAA6A2007E9495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D1A9DDB1DDAA6A2007E9495 /* Assets.xcassets */; };
+		7D1A9DEC1DDAA6B7007E9495 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A9DEB1DDAA6B7007E9495 /* main.m */; };
+		7D1A9DEF1DDAA6B7007E9495 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1A9DEE1DDAA6B7007E9495 /* AppDelegate.m */; };
+		7D1A9DF71DDAA6B7007E9495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D1A9DF61DDAA6B7007E9495 /* Assets.xcassets */; };
+		7D8C7E441DDAB35E001064F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8C7E431DDAB35E001064F2 /* Main.storyboard */; };
+		7D8C7E471DDAB375001064F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8C7E451DDAB375001064F2 /* LaunchScreen.storyboard */; };
+		7D8C7E481DDAB375001064F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D8C7E461DDAB375001064F2 /* Main.storyboard */; };
+		7D8C7E951DDADF0F001064F2 /* ClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8C7E941DDADF0F001064F2 /* ClientViewController.m */; };
+		AB2D408ACCB8D2D02ECE101F /* libPods-LockMyMac-Client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A7DCFD6CF4163AD3F82D74 /* libPods-LockMyMac-Client.a */; };
+		F83911618866B681EFD6D3ED /* libPods-LockMyMac-Server.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C7A807BBBA07C298300ED30 /* libPods-LockMyMac-Server.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E12AA43AFF92A0E169A0410 /* Pods-LockMyMac-Server.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LockMyMac-Server.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LockMyMac-Server/Pods-LockMyMac-Server.debug.xcconfig"; sourceTree = "<group>"; };
+		1C7A807BBBA07C298300ED30 /* libPods-LockMyMac-Server.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LockMyMac-Server.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA9D1B833831D86C6E00BA3 /* Pods-LockMyMac-Client.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LockMyMac-Client.release.xcconfig"; path = "Pods/Target Support Files/Pods-LockMyMac-Client/Pods-LockMyMac-Client.release.xcconfig"; sourceTree = "<group>"; };
+		7D1A9DCF1DDAA6A2007E9495 /* LockMyMac-Server.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LockMyMac-Server.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1A9DD21DDAA6A2007E9495 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D1A9DD31DDAA6A2007E9495 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; wrapsLines = 1; };
+		7D1A9DD61DDAA6A2007E9495 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D1A9DDB1DDAA6A2007E9495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D1A9DE01DDAA6A2007E9495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D1A9DE81DDAA6B6007E9495 /* LockMyMac-Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LockMyMac-Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1A9DEB1DDAA6B7007E9495 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D1A9DED1DDAA6B7007E9495 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D1A9DEE1DDAA6B7007E9495 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D1A9DF61DDAA6B7007E9495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D1A9DFB1DDAA6B7007E9495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D8C7E431DDAB35E001064F2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7D8C7E451DDAB375001064F2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D8C7E461DDAB375001064F2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7D8C7E931DDADF0F001064F2 /* ClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientViewController.h; sourceTree = "<group>"; };
+		7D8C7E941DDADF0F001064F2 /* ClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientViewController.m; sourceTree = "<group>"; };
+		9E60256299CB3A0CD1077F43 /* Pods-LockMyMac-Server.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LockMyMac-Server.release.xcconfig"; path = "Pods/Target Support Files/Pods-LockMyMac-Server/Pods-LockMyMac-Server.release.xcconfig"; sourceTree = "<group>"; };
+		D9A7DCFD6CF4163AD3F82D74 /* libPods-LockMyMac-Client.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LockMyMac-Client.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F440798B583BA2DAE1520A0A /* Pods-LockMyMac-Client.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LockMyMac-Client.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LockMyMac-Client/Pods-LockMyMac-Client.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D1A9DCC1DDAA6A2007E9495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83911618866B681EFD6D3ED /* libPods-LockMyMac-Server.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1A9DE51DDAA6B6007E9495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2D408ACCB8D2D02ECE101F /* libPods-LockMyMac-Client.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66D72217D6BD361B08C46C71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F440798B583BA2DAE1520A0A /* Pods-LockMyMac-Client.debug.xcconfig */,
+				6DA9D1B833831D86C6E00BA3 /* Pods-LockMyMac-Client.release.xcconfig */,
+				0E12AA43AFF92A0E169A0410 /* Pods-LockMyMac-Server.debug.xcconfig */,
+				9E60256299CB3A0CD1077F43 /* Pods-LockMyMac-Server.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D1A9DC41DDAA688007E9495 = {
+			isa = PBXGroup;
+			children = (
+				7D1A9DD11DDAA6A2007E9495 /* LockMyMac-Server */,
+				7D1A9DE91DDAA6B7007E9495 /* LockMyMac-Client */,
+				7D1A9DD01DDAA6A2007E9495 /* Products */,
+				66D72217D6BD361B08C46C71 /* Pods */,
+				F063E80DB947B468E1CEDF9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7D1A9DD01DDAA6A2007E9495 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D1A9DCF1DDAA6A2007E9495 /* LockMyMac-Server.app */,
+				7D1A9DE81DDAA6B6007E9495 /* LockMyMac-Client.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D1A9DD11DDAA6A2007E9495 /* LockMyMac-Server */ = {
+			isa = PBXGroup;
+			children = (
+				7D1A9DD21DDAA6A2007E9495 /* AppDelegate.h */,
+				7D1A9DD31DDAA6A2007E9495 /* AppDelegate.m */,
+				7D1A9DDB1DDAA6A2007E9495 /* Assets.xcassets */,
+				7D8C7E431DDAB35E001064F2 /* Main.storyboard */,
+				7D1A9DD51DDAA6A2007E9495 /* Supporting Files */,
+			);
+			path = "LockMyMac-Server";
+			sourceTree = "<group>";
+		};
+		7D1A9DD51DDAA6A2007E9495 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D1A9DE01DDAA6A2007E9495 /* Info.plist */,
+				7D1A9DD61DDAA6A2007E9495 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7D1A9DE91DDAA6B7007E9495 /* LockMyMac-Client */ = {
+			isa = PBXGroup;
+			children = (
+				7D1A9DED1DDAA6B7007E9495 /* AppDelegate.h */,
+				7D1A9DEE1DDAA6B7007E9495 /* AppDelegate.m */,
+				7D1A9DF61DDAA6B7007E9495 /* Assets.xcassets */,
+				7D8C7E451DDAB375001064F2 /* LaunchScreen.storyboard */,
+				7D8C7E461DDAB375001064F2 /* Main.storyboard */,
+				7D8C7E931DDADF0F001064F2 /* ClientViewController.h */,
+				7D8C7E941DDADF0F001064F2 /* ClientViewController.m */,
+				7D1A9DEA1DDAA6B7007E9495 /* Supporting Files */,
+			);
+			path = "LockMyMac-Client";
+			sourceTree = "<group>";
+		};
+		7D1A9DEA1DDAA6B7007E9495 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D1A9DFB1DDAA6B7007E9495 /* Info.plist */,
+				7D1A9DEB1DDAA6B7007E9495 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F063E80DB947B468E1CEDF9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9A7DCFD6CF4163AD3F82D74 /* libPods-LockMyMac-Client.a */,
+				1C7A807BBBA07C298300ED30 /* libPods-LockMyMac-Server.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D1A9DCE1DDAA6A2007E9495 /* LockMyMac-Server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D1A9DE11DDAA6A2007E9495 /* Build configuration list for PBXNativeTarget "LockMyMac-Server" */;
+			buildPhases = (
+				9C690A30E0C55AA054609B33 /* [CP] Check Pods Manifest.lock */,
+				7D1A9DCB1DDAA6A2007E9495 /* Sources */,
+				7D1A9DCC1DDAA6A2007E9495 /* Frameworks */,
+				7D1A9DCD1DDAA6A2007E9495 /* Resources */,
+				D56418043451272836905550 /* [CP] Embed Pods Frameworks */,
+				559F1B90CDEBD63B10B5F95B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LockMyMac-Server";
+			productName = "LockMyMac-Server";
+			productReference = 7D1A9DCF1DDAA6A2007E9495 /* LockMyMac-Server.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D1A9DE71DDAA6B6007E9495 /* LockMyMac-Client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D1A9DFC1DDAA6B7007E9495 /* Build configuration list for PBXNativeTarget "LockMyMac-Client" */;
+			buildPhases = (
+				539A655B06A7D8304268A61B /* [CP] Check Pods Manifest.lock */,
+				7D1A9DE41DDAA6B6007E9495 /* Sources */,
+				7D1A9DE51DDAA6B6007E9495 /* Frameworks */,
+				7D1A9DE61DDAA6B6007E9495 /* Resources */,
+				722F64270C7165A23EEE30B0 /* [CP] Embed Pods Frameworks */,
+				769411BC19184599E8473F6C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LockMyMac-Client";
+			productName = "LockMyMac-Client";
+			productReference = 7D1A9DE81DDAA6B6007E9495 /* LockMyMac-Client.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D1A9DC51DDAA688007E9495 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SY;
+				LastUpgradeCheck = 0810;
+				TargetAttributes = {
+					7D1A9DCE1DDAA6A2007E9495 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NXZYHHH37W;
+						ProvisioningStyle = Automatic;
+					};
+					7D1A9DE71DDAA6B6007E9495 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = NXZYHHH37W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7D1A9DC81DDAA688007E9495 /* Build configuration list for PBXProject "LockMyMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D1A9DC41DDAA688007E9495;
+			productRefGroup = 7D1A9DD01DDAA6A2007E9495 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D1A9DCE1DDAA6A2007E9495 /* LockMyMac-Server */,
+				7D1A9DE71DDAA6B6007E9495 /* LockMyMac-Client */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D1A9DCD1DDAA6A2007E9495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8C7E441DDAB35E001064F2 /* Main.storyboard in Resources */,
+				7D1A9DDC1DDAA6A2007E9495 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1A9DE61DDAA6B6007E9495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8C7E481DDAB375001064F2 /* Main.storyboard in Resources */,
+				7D1A9DF71DDAA6B7007E9495 /* Assets.xcassets in Resources */,
+				7D8C7E471DDAB375001064F2 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		539A655B06A7D8304268A61B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		559F1B90CDEBD63B10B5F95B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LockMyMac-Server/Pods-LockMyMac-Server-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		722F64270C7165A23EEE30B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LockMyMac-Client/Pods-LockMyMac-Client-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		769411BC19184599E8473F6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LockMyMac-Client/Pods-LockMyMac-Client-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C690A30E0C55AA054609B33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D56418043451272836905550 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LockMyMac-Server/Pods-LockMyMac-Server-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D1A9DCB1DDAA6A2007E9495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1A9DD71DDAA6A2007E9495 /* main.m in Sources */,
+				7D1A9DD41DDAA6A2007E9495 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D1A9DE41DDAA6B6007E9495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1A9DEF1DDAA6B7007E9495 /* AppDelegate.m in Sources */,
+				7D1A9DEC1DDAA6B7007E9495 /* main.m in Sources */,
+				7D8C7E951DDADF0F001064F2 /* ClientViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7D1A9DC91DDAA688007E9495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		7D1A9DCA1DDAA688007E9495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+			};
+			name = Release;
+		};
+		7D1A9DE21DDAA6A2007E9495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E12AA43AFF92A0E169A0410 /* Pods-LockMyMac-Server.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NXZYHHH37W;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "LockMyMac-Server/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.sunnyyoung.LockMyMac-Server";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7D1A9DE31DDAA6A2007E9495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E60256299CB3A0CD1077F43 /* Pods-LockMyMac-Server.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NXZYHHH37W;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "LockMyMac-Server/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.sunnyyoung.LockMyMac-Server";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7D1A9DFD1DDAA6B7007E9495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F440798B583BA2DAE1520A0A /* Pods-LockMyMac-Client.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = NXZYHHH37W;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "LockMyMac-Client/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.sunnyyoung.LockMyMac-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D1A9DFE1DDAA6B7007E9495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA9D1B833831D86C6E00BA3 /* Pods-LockMyMac-Client.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = NXZYHHH37W;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "LockMyMac-Client/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.sunnyyoung.LockMyMac-Client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D1A9DC81DDAA688007E9495 /* Build configuration list for PBXProject "LockMyMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1A9DC91DDAA688007E9495 /* Debug */,
+				7D1A9DCA1DDAA688007E9495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D1A9DE11DDAA6A2007E9495 /* Build configuration list for PBXNativeTarget "LockMyMac-Server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1A9DE21DDAA6A2007E9495 /* Debug */,
+				7D1A9DE31DDAA6A2007E9495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D1A9DFC1DDAA6B7007E9495 /* Build configuration list for PBXNativeTarget "LockMyMac-Client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D1A9DFD1DDAA6B7007E9495 /* Debug */,
+				7D1A9DFE1DDAA6B7007E9495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D1A9DC51DDAA688007E9495 /* Project object */;
+}
